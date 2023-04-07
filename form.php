@@ -1,7 +1,7 @@
 <?php
 // Read country codes and names from CSV file
 $all_country_codes = array();
-if (($handle = fopen("country-codes.csv", "r")) !== FALSE) {
+if (($handle = fopen("https://github.com/avanisinghal/Contact-form-with-captcha/blob/main/Country-codes.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
         $all_country_codes[] = array('code' => $data[0], 'name' => $data[1]);
     }
