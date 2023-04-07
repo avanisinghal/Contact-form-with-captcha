@@ -50,7 +50,7 @@ if (($handle = fopen("https://github.com/avanisinghal/Contact-form-with-captcha/
   </div>
   <div class="form-group">
     <!-- Google reCAPTCHA block -->
-    <div class="g-recaptcha" data-sitekey="6LfZ4AAVAAAAAFP6tyNYWgycDvXHIfjZg9shDZ05"></div>
+    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe"></div>
   </div>
   <div class="form-group">
     <input type="submit" name="send" value="Send" class="btn btn-dark btn-block">        
